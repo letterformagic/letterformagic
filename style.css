@@ -113,11 +113,11 @@ h4 {
 
 .grid3 {
   --gap: 0em;
-  --columns: 3;
   min-width: 100vw;
-  display: column;
-  columns: var(--columns);
+  display: grid;
   grid-gap: var(--gap);
+  grid-template-columns: 34vw 34vw 34vw;
+  grid-template-rows: auto;
   margin-top: 30px;
   margin-left: -8px;
   position: relative;
@@ -243,10 +243,10 @@ opacity: 1;
 
 .grid3 {
   --gap: 0em;
-  --columns: 1;
   min-width: 100vw;
-  display: column;
-  columns: var(--columns);
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: auto;
   grid-gap: 0em;
   margin-top: 60px;
   flex-grow: 1;
