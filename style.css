@@ -7,6 +7,8 @@ body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 a {
@@ -69,7 +71,6 @@ h4 {
 	position: fixed;
 	top: 0;
 	z-index: 10;
-	margin-left: -8px;
 
 }
 
@@ -121,7 +122,6 @@ h4 {
   grid-template-columns: 34vw 34vw 34vw;
   grid-template-rows: auto;
   margin-top: 30px;
-  margin-left: -8px;
   position: relative;
   float: left;
 }
@@ -200,7 +200,7 @@ opacity: 1;
 }
 
 .cursor {
-  width:600px;
+  width:300px;
   height:400px;
   cursor: url("icons/chess_queen3.png"), auto;
   pointer-events: auto;
@@ -218,11 +218,25 @@ opacity: 1;
   display: block;
 }
 
-@media screen and (max-width: 768px){
+/* ABOUT */
 
-.cursor {
-  width:300px;
-  }
+.about-post {
+  padding: 30px;
+  padding-top: 5px;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 40vw;
+  margin-bottom: 40px;
+  background-color: white;
+  text-align: justify;
+  text-justify: inter-word;
+  break-inside: avoid-column;
+  max-width: 80vh;
+}
+
+@media screen and (max-width: 768px){
 
   .mob-hidden {
     display: none;
@@ -305,7 +319,8 @@ opacity: 1;
   font-size: 15px;
   text-align: left;
   margin-top: 150px;
-  margin-left: 10px;
+  margin-left: -8px;
+  margin-right: 0px;
   margin-bottom: 40px;
   background-color: white;
   text-align: justify;
@@ -320,25 +335,6 @@ p {
 }
 
 }
-
-/* ABOUT */
-
-.about-post {
-  padding: 30px;
-  padding-top: 5px;
-  font-weight: 300;
-  font-size: 15px;
-  text-align: left;
-  margin-top: 150px;
-  margin-left: 40vw;
-  margin-bottom: 40px;
-  background-color: white;
-  text-align: justify;
-  text-justify: inter-word;
-  break-inside: avoid-column;
-  max-width: 80vh;
-}
-
 
 
 /* FOOTER */
