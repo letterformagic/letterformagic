@@ -218,7 +218,11 @@ opacity: 1;
   display: block;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
+
+.cursor {
+  width:300px;
+  }
 
   .mob-hidden {
     display: none;
